@@ -5,7 +5,6 @@
 [functions]
   node_bundler = "esbuild"
 
-# Facoltativo: forza regione EU (maggior vicinanza all'Italia)
-[[functions.environment]]
-  name = "AWS_LAMBDA_FUNCTION_MEMORY_SIZE"
-  value = "1024"
+# se vuoi passare variabili d'ambiente, usa direttamente questa forma:
+[functions.environment]
+  STATION_ID = "2772110721"  # 👈 puoi anche lasciarlo vuoto e impostarlo dal pannello Netlify
