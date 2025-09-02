@@ -1,0 +1,15 @@
+{
+  "name": "weathercloud-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "weathercloud-js": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Nothing to build'",
+    "deploy": "netlify deploy --prod"
+  }
+}
